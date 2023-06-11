@@ -6,6 +6,7 @@
 
 .button_theme_primary{
     background-color: var(--blue-2);
+    padding: 15px 62px 14px 63px; 
 }
 
 .button_theme_primary:hover{
@@ -14,6 +15,7 @@
 
 .button_theme_secondary{
     background-color: var(--purple-1);
+    padding: 15px 53px 14px 53px;
 }
 
 .button_theme_secondary:hover{
@@ -23,6 +25,7 @@
 .button_theme_alternate{
     border:1px solid var(--grey-3);
     background-color: var(--white);
+    padding: 15px 58px 14px 58px;
 }
 
 .button_theme_alternate:hover{
@@ -35,7 +38,7 @@
     font-weight: 500;
     line-height: 18.75px;
     font-size: 16px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .button__title_primary_secondary{
