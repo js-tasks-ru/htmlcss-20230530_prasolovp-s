@@ -6,12 +6,11 @@
     line-height: 18.75px;
     font-size: 16px;
     cursor: pointer;
-    /* padding: 15px 62px 14px 63px; */
+    padding: 15px 62px 14px 63px;
 }
 
 .button_theme_primary{
-    background-color: var(--blue-2);
-    padding: 15px 62px 14px 63px; 
+    background-color: var(--blue-2);   
 }
 
 .button_theme_primary:hover{
@@ -20,7 +19,6 @@
 
 .button_theme_secondary{
     background-color: var(--purple-1);
-    padding: 15px 53px 14px 53px;
 }
 
 .button_theme_secondary:hover{
@@ -30,7 +28,6 @@
 .button_theme_alternate{
     border:1px solid var(--grey-3);
     background-color: var(--white);
-    padding: 15px 58px 14px 58px;
 }
 
 .button_theme_alternate:hover{
