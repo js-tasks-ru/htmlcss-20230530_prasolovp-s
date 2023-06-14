@@ -8,18 +8,19 @@
     border-radius: 8px;
     background-color: var(--white);
     border: 1px solid var(--grey-3);
-    padding: 24px 32px;    
+    padding: 24px 32px;
+    margin-bottom: 8px;    
     
 }
 
-.accordion__summary{
+.accordion__summary{    
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;    
     color: var(--black2);
-    cursor: pointer;
+    cursor: pointer;  
 }
 
 .accordion__content{
@@ -28,5 +29,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: var(--grey-4);     
+    color: var(--grey-4);
+    margin: 16px 0 0 0;     
+}
+
+.wrapper{
+    width: 580px;
 }
