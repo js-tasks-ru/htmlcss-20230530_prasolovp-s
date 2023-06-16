@@ -19,11 +19,6 @@
     justify-content: space-between;
 }
 
-.histogram__linkContaner{    
-    display: flex;
-    justify-content: flex-end;
-}
-
 .histogram__chartContaner{
     display: flex;
     flex-direction: row;
