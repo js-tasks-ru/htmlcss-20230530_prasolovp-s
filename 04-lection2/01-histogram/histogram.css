@@ -7,24 +7,24 @@
     padding: 16px 24px 24px 24px;        
 }
 
-.histogramNameLink__contaner{
+.histogram__nameLinkContaner{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 39px;
+    margin-bottom: 39px;
 }
-.histogramName__contaner{
+.histogram__nameContaner{
     display: flex;    
     flex-direction: column;
     justify-content: space-between;
 }
 
-.histogramLink__contaner{    
+.histogram__linkContaner{    
     display: flex;
     justify-content: flex-end;
 }
 
-.histogramPicture__contaner{
+.histogram__chartContaner{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -58,66 +58,45 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    text-align: right;
     color: #4263EB;
     padding-top: 4px;
-    /* align-self: flex-end; */
 }
 
-.histogram__pictureItem100{
-    height: 100%;
+.histogram__chartColumn{
     width: 9px;
     background-color: var(--blue-2);
     border: 1px solid var(--white);
 }
+.histogram__chartColumn_100{
+    height: 100%;    
+}
 
-.histogram__pictureItem91{
+.histogram__chartColumn_91{
     height: 91%;
-    width: 9px;
-    background-color: var(--blue-2);
-    border: 1px solid var(--white);
 }
 
-.histogram__pictureItem80{
+.histogram__chartColumn_80{
     height: 80%;
-    width: 9px;
-    background-color: var(--blue-2);
-    border: 1px solid var(--white);
 }
 
-.histogram__pictureItem70{
+.histogram__chartColumn_70{
     height: 70%;
-    width: 9px;
-    background-color: var(--blue-2);
-    border: 1px solid var(--white);
 }
 
-.histogram__pictureItem60{
+.histogram__chartColumn_60{
     height: 60%;
-    width: 9px;
-    background-color: var(--blue-2);
-    border: 1px solid var(--white);
 }
 
-.histogram__pictureItem50{
-    height: 50%;
-    width: 9px;
-    background-color: var(--blue-2);
-    border: 1px solid var(--white);
+.histogram__chartColumn_50{
+    height: 50%;    
 }
 
-.histogram__pictureItem40{
-    height: 40%;
-    width: 9px;
-    background-color: var(--blue-2);
-    border: 1px solid var(--white);
+.histogram__chartColumn_40{
+    height: 40%;    
 }
 
-.histogram__pictureItem20{
+.histogram__chartColumn_20{
     height: 20%;
-    width: 9px;
-    background-color: var(--blue-2);
-    border: 1px solid var(--white);
 }
 
 .wrapper{
