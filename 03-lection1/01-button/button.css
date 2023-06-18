@@ -34,8 +34,6 @@
 
 .button_theme_alternate:hover{
     border:1px solid var(--black);
-    background-color: var(--white);
-    color: var(--grey-4);
 }
 
 .button:disabled{
