@@ -1,0 +1,43 @@
+.modal {
+    background: #C4C4C4;    
+    padding: 2.5rem;
+}
+
+.modal__form {
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 2.5rem 2.5rem;
+}
+
+.modal__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ACB5BD;
+    margin-bottom: 0.3rem;
+}
+
+.modal__input {
+    background: #FFFFFF;
+    border: 1px solid #DDE2E5;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #DDE2E5;
+    padding: 1.06rem 13.4rem 0.8rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.modal__input_margin_bottom {
+    margin-bottom: 1.5rem;
+}
