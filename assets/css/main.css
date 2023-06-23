@@ -4,7 +4,8 @@
 :root {
     --white: #ffffff;
     --white_alternate: #E5E5E5;
-    --black: #212429;
+    --black-1: #212429;
+    --black-2: #000000;
     --pink: #F784AD;
     --purple-1: #7048E8;
     --purple-2: #5028C6;
@@ -30,3 +31,8 @@
 a {
     text-decoration: none;
 }
+
+summary::-webkit-details-marker{display:none;}
+summary::-moz-list-bullet{list-style-type:none;}
+summary::marker{display:none;}
+details summary{display: block;}
