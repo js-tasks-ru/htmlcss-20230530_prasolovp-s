@@ -1,6 +1,6 @@
 .modal {
     padding: 2.5rem;
-    position: relative;
+    position: fixed;
 }
 
 .modal::before {
@@ -17,7 +17,7 @@
     opacity: 0.5;
 }
 
-.modal__form {
+.modal__window {
     background: #FFFFFF;
     border-radius: 8px;
     display: flex;
