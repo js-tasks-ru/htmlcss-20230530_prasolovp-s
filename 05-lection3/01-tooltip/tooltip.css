@@ -2,11 +2,6 @@
     position: relative;
     display: inline-block;
     cursor: pointer;
-    padding: 100px;
-}
-
-.tooltip__icon{
-    position: relative;
 }
 
 .tooltip__bubble{
@@ -23,8 +18,8 @@
     text-align: center;
     color: #DDE2E5;
     white-space: nowrap;
-    position: absolute;
-    bottom: 60%;
+    position: absolute;    
+    bottom: calc(100% + 8px);
     right: 50%;
     transform: translateX(50%);
 }
@@ -35,8 +30,8 @@
     position: absolute;
     border-top: 7px solid #212429;
     top: 100%;
-    right: 50%;
-    transform: translate(50%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .tooltip__icon:hover + .tooltip__bubble{
