@@ -7,12 +7,13 @@
     padding: 16px 24px 24px 24px;        
 }
 
-.histogram__titleLinkContaner{
+.histogram__header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 39px;
 }
+
 .histogram__titleContaner{
     display: flex;    
     flex-direction: column;
@@ -22,6 +23,7 @@
 .histogram__chartContaner{
     display: flex;
     flex-direction: row;
+    gap: 1px;
     justify-content: flex-start;
     align-items: flex-end;    
     height: 50px;
@@ -35,7 +37,7 @@
     line-height: 24px;
     color: #212429;
     opacity: 0.8;
-    padding-bottom: 6px;
+    margin-bottom: 6px;
 }
 
 .histogram__counter{
@@ -58,10 +60,10 @@
 }
 
 .histogram__chartColumn{
-    width: 9px;
+    flex-basis: 9px;
     background-color: var(--blue-2);
-    border: 1px solid var(--white);
 }
+
 .histogram__chartColumn_100{
     height: 100%;    
 }
@@ -92,10 +94,4 @@
 
 .histogram__chartColumn_20{
     height: 20%;
-}
-
-.wrapper{
-    width: 300px;
-    height: 270px;
-    margin: 50px;
 }
