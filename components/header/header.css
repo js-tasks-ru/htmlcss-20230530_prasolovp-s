@@ -1,14 +1,65 @@
 .header{
     background-color: var(--white);
-    padding: 86px 0 77px;
+}    
 
+.header__wrapper {
+    padding: 17px 0 69px 16px;
+    display: grid;
+    grid-template-rows: 64px 1fr;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
+
+.logo__square {
+    width: 32px;
+    height: 32px;
+    background: #212429;
+    order: 0;
+    flex-grow: 0;
+}
+
+.logo__circle {
+    width: 32px;
+    height: 32px;
+    background: #212429;
+    border-radius: 50px;
+    order: 1;
+    flex-grow: 0;
+}
+
+.logo__triangle {
+     width: 32px;
+    height: 32px;
+    order: 2;
+    flex-grow: 0;
+    background-image: url(../../assets/images/triangle.svg);
 }
 
 .header__title{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 50px;
-    line-height: 64px;
-    color: var(--black-1);
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--grey-4);
+}
+
+
+@media (min-width: 996px) {
+
+/*
+    .header__title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--grey-4);
+    }*/
 }
