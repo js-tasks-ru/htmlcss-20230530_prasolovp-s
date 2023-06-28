@@ -30,8 +30,8 @@
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
 	grid-template-rows: repeat(7, 1fr);
-	justify-items: center;
-	align-items: center;
+	justify-items: stretch;
+	align-items: stretch;
 }
 
 .calendar__item {
@@ -39,6 +39,9 @@
 	font-size: 16px;
 	font-family: Source Sans Pro;
 	line-height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .calendar__item_day {
@@ -52,10 +55,8 @@
 .calendar__item_background {
 	background-color: #4263EB;
 	color: var(--white);
-	padding: 8px 11px;	
 }
 
 .calendar__item_background_rgba {
 	background-color: rgba(160, 177, 245, 0.2);
-	padding: 8px 12px;
 }
