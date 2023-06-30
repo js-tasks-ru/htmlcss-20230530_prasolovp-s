@@ -1,8 +1,4 @@
 /* Стилизация аккордеона */
-.accordion__object{
-    display: none;
-}
-
 .accordion{
 
 }
@@ -17,6 +13,7 @@
 
 .accordion__item[open]{
     padding-bottom: 32px;
+    
 }
 
 .accordion__summary{    
@@ -32,9 +29,13 @@
     justify-content: space-between;
 }
 
-.accordion__frame37 {
+.accordion__frame {
     width: 24px;
     height: 24px;
+}
+
+.accordion__item[open] + .accordion__frame {
+    transform: rotate(180deg);
 }
 
 .accordion__content{
