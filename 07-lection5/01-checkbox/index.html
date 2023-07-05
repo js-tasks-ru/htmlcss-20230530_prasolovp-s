@@ -6,6 +6,23 @@
         <link rel="stylesheet" href="./checkbox.css">
     </head>
     <body>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__input">
+                <div class="checkbox__state">
+                    <div class="checkbox__control">
+                        <svg class="checkbox__icon">
+                            <use xlink:href="../../assets/images/icons.svg#checked">
+                            </use>
+                        </svg>
+                    </div>
+                    <div class="checkbox__label">Default</div>               
+            </div> <br>
+            <input disabled type="checkbox" class="checkbox__input">
+            <div class="checkbox__state">
+                <div class="checkbox__control">                    
+                </div>
+            <div disabled class="checkbox__label">Disabled</div>
+        </label>
 
     </body>
 </html>
