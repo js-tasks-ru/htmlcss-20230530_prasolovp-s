@@ -1,0 +1,97 @@
+.histogram{
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;    
+    padding: 16px 24px 24px 24px;        
+}
+
+.histogram__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 39px;
+}
+
+.histogram__titleContaner{
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.histogram__chartContaner{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    justify-content: flex-start;
+    align-items: flex-end;    
+    height: 50px;
+}
+
+.histogram__counterName{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212429;
+    opacity: 0.8;
+    margin-bottom: 6px;
+}
+
+.histogram__counter{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #212429;
+}
+
+.histogram__link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4263EB;
+    padding-top: 4px;
+}
+
+.histogram__chartColumn{
+    flex-basis: 9px;
+    background-color: var(--blue-2);
+}
+
+.histogram__chartColumn_100{
+    height: 100%;    
+}
+
+.histogram__chartColumn_91{
+    height: 91%;
+}
+
+.histogram__chartColumn_80{
+    height: 80%;
+}
+
+.histogram__chartColumn_70{
+    height: 70%;
+}
+
+.histogram__chartColumn_60{
+    height: 60%;
+}
+
+.histogram__chartColumn_50{
+    height: 50%;    
+}
+
+.histogram__chartColumn_40{
+    height: 40%;    
+}
+
+.histogram__chartColumn_20{
+    height: 20%;
+}
