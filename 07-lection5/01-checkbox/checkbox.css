@@ -62,4 +62,5 @@
 .checkbox__input:disabled ~ .checkbox__state .checkbox__label {
     color: rgba(221, 226, 229, 1);
     text-decoration: none;
+    pointer-events: none;
 }
