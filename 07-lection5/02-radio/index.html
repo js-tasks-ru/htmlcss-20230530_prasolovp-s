@@ -5,7 +5,37 @@
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
     </head>
-    <body>
-
+    <body>        
+        <label class="radio">            
+                <input type="radio" name="radio" value="radio1" class="radio__input">                            
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <svg class="radio__icon">
+                            <use xlink:href="../../assets/images/icons.svg#radio"></use>
+                        </svg>
+                    </div>
+                    <div class="radio__label">Default</div>
+                </div>            
+        </label> <br><br>
+        <label class="radio">            
+            <input type="radio" name="radio" value="radio2" class="radio__input">                            
+            <div class="radio__state">
+                <div class="radio__control">
+                    <svg class="radio__icon">
+                        <use xlink:href="../../assets/images/icons.svg#radio"></use>
+                    </svg>
+                </div>
+                <div class="radio__label">Selected</div>
+            </div>            
+        </label><br>
+        <br>
+        <label class="radio">            
+            <input disabled type="radio" name="radio" value="radio3" class="radio__input">                            
+            <div class="radio__state">
+                <div class="radio__control">                        
+                </div>
+                <div class="radio__label">Disabled</div>
+            </div>            
+        </label>   
     </body>
 </html>
