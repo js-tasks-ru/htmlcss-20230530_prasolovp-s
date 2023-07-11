@@ -16,6 +16,7 @@
 }
 
 .radio__control {
+    box-sizing: border-box;
     position: relative;
     border: 2px solid rgba(221, 226, 229, 1);
     border-radius: 50%;
