@@ -6,31 +6,27 @@
         <link rel="stylesheet" href="./input.css">
     </head>
     <body>
-        <label class="input">
-            <div class="input__label">LABEL</div>
+        <div class="input">
+            <label for="input" class="input__label">LABEL</label>
             <input class="input__field" type="text" placeholder="Placeholder">
-        </label>
-        <label class="input">
-            <div class="input__label">focus</div>            
-                <input class="input__field input__field_focus" type="text" placeholder="Filled input"> 
-        </label>
-        <label class="input">
-            <div class="input__label">success</div>
+        </div>        
+        <div class="input">
+            <label for="input" class="input__label">success</label>
             <div class="input__fieldWrapper">
-                <input class="input__field input__field_success" type="text" placeholder="Success">
-                <svg class="input__field_success_image">
+                <input class="input__field input_success" type="text" placeholder="Success">
+                <svg class="input_success_image">
                     <use href="../../assets/images/icons.svg#success"></use>
                 </svg>
             </div>
-        </label>
-        <label class="input">
-            <div class="input__label">error</div>
+        </div>
+        <div class="input">
+            <label for="input" class="input__label">error</label>
             <div class="input__fieldWrapper">
-                <input class="input__field input__field_error" type="text" placeholder="Error">
+                <input class="input__field input_error" type="text" placeholder="Error">
                 <svg class="input__field_error_image">
                     <use href="../../assets/images/icons.svg#error"></use>
                 </svg>
             </div>
-        </label>
+        </div>
     </body>
 </html>
